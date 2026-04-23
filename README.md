@@ -2,6 +2,7 @@
 An interactive Streamlit-based AI application that allows users to chat with SQL databases (SQLite / MySQL) using natural language. Powered by LangChain + Groq LLM, this app converts user queries into SQL and returns meaningful results instantly.
 
 #🚀 Features
+
 🧠 Natural Language → SQL Query conversion
 
 📊 Supports SQLite (local DB) and MySQL (remote DB)
