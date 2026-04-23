@@ -34,10 +34,15 @@ An interactive Streamlit-based AI application that allows users to chat with SQL
 📂 Project Structure
 
    SQL_chat/
+    
     │── app.py              # Main Streamlit app
+    
     │── sqlite.py          # SQLite DB handling
+    
     │── student.db         # Sample database
+    
     │── requirements.txt   # Dependencies
+    
     │── .env               # Environment variables (optional)
 
 
