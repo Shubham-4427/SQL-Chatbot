@@ -15,6 +15,7 @@ An interactive Streamlit-based AI application that allows users to chat with SQL
 🛠 Modular and extendable architecture
 
 #🏗️ Tech Stack
+
 Frontend: Streamlit
 LLM: Groq (llama3-8b-instant)
 Framework: LangChain
