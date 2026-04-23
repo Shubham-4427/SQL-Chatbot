@@ -34,9 +34,13 @@ Language: Python
 SQL_chat/
 
 │── app.py              # Main Streamlit app
+
 │── sqlite.py          # SQLite DB handling
+
 │── student.db         # Sample database
+
 │── requirements.txt   # Dependencies
+
 │── .env               # Environment variables (optional)
 
 #🧑‍💻 Usage
