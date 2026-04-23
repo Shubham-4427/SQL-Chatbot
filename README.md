@@ -1,97 +1,97 @@
 # SQL-Chatbot
 An interactive Streamlit-based AI application that allows users to chat with SQL databases (SQLite / MySQL) using natural language. Powered by LangChain + Groq LLM, this app converts user queries into SQL and returns meaningful results instantly.
 
-#🚀 Features
+🚀 Features
 
- 🧠 Natural Language → SQL Query conversion
+  🧠 Natural Language → SQL Query conversion
 
- 📊 Supports SQLite (local DB) and MySQL (remote DB)
+  📊 Supports SQLite (local DB) and MySQL (remote DB)
 
- ⚡ Fast responses using Groq LLM (LLaMA 3)
+  ⚡ Fast responses using Groq LLM (LLaMA 3)
 
- 💬 Chat-style interface using Streamlit
+  💬 Chat-style interface using Streamlit
 
- 🔐 Secure API key input
+  🔐 Secure API key input
 
- 🛠 Modular and extendable architecture
-
-
-#🏗️ Tech Stack
-
- Frontend: Streamlit
-
- LLM: Groq (llama3-8b-instant)
-
- Framework: LangChain
-
- Database: SQLite / MySQL
-
- ORM/Connector: SQLAlchemy
-
- Language: Python
+  🛠 Modular and extendable architecture
 
 
-#📂 Project Structure
+🏗️ Tech Stack
 
- SQL_chat/
+  Frontend: Streamlit
 
-  │── app.py              # Main Streamlit app
+  LLM: Groq (llama3-8b-instant)
 
-  │── sqlite.py          # SQLite DB handling
+  Framework: LangChain
 
-  │── student.db         # Sample database
+  Database: SQLite / MySQL
 
-  │── requirements.txt   # Dependencies
+  ORM/Connector: SQLAlchemy
 
-  │── .env               # Environment variables (optional)
-
-
-#🧑‍💻 Usage
-
- Select database option:
-
- SQLite (default: student.db)
-
- MySQL (enter credentials)
-
- Enter your Groq API Key
-
- Ask questions like:
-  “Show all students”
-  “What is the average marks?”
-  “List top 5 performers”
-
- Get instant results 🎯
+  Language: Python
 
 
-#🧠 How It Works
+📂 Project Structure
 
- User inputs a natural language query
+  SQL_chat/
 
- LangChain agent processes the query
+   │── app.py              # Main Streamlit app
 
- Converts it into SQL using schema understanding
+   │── sqlite.py          # SQLite DB handling
 
- Executes query via SQLAlchemy
+   │── student.db         # Sample database
 
- Returns formatted response
+   │── requirements.txt   # Dependencies
 
-
-#🔮 Future Improvements
-
- Add PostgreSQL support
-
- Query history & caching
-
- Visualization (charts/graphs)
-
- Role-based access control
-
- Deployment (Streamlit Cloud / Docker)
+   │── .env               # Environment variables (optional)
 
 
-#👨‍💻 Author
+🧑‍💻 Usage
 
- Shubham Kumar
+  Select database option:
 
- AI/ML Engineer
+  SQLite (default: student.db)
+
+  MySQL (enter credentials)
+
+  Enter your Groq API Key
+
+  Ask questions like:
+   “Show all students”
+   “What is the average marks?”
+   “List top 5 performers”
+
+  Get instant results 🎯
+
+
+🧠 How It Works
+
+  User inputs a natural language query
+
+  LangChain agent processes the query
+
+  Converts it into SQL using schema understanding
+
+  Executes query via SQLAlchemy
+
+  Returns formatted response
+
+
+🔮 Future Improvements
+
+  Add PostgreSQL support
+  
+  Query history & caching
+
+  Visualization (charts/graphs)
+
+  Role-based access control
+
+  Deployment (Streamlit Cloud / Docker)
+
+
+👨‍💻 Author
+
+  Shubham Kumar
+
+  AI/ML Engineer
