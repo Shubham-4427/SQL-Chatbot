@@ -3,32 +3,32 @@ An interactive Streamlit-based AI application that allows users to chat with SQL
 
 🚀 Features
 
-  🧠 Natural Language → SQL Query conversion
+  ->🧠 Natural Language → SQL Query conversion
 
-  📊 Supports SQLite (local DB) and MySQL (remote DB)
+  ->📊 Supports SQLite (local DB) and MySQL (remote DB)
 
-  ⚡ Fast responses using Groq LLM (LLaMA 3)
+  ->⚡ Fast responses using Groq LLM (LLaMA 3)
 
-  💬 Chat-style interface using Streamlit
+  ->💬 Chat-style interface using Streamlit
 
-  🔐 Secure API key input
+  ->🔐 Secure API key input
 
-  🛠 Modular and extendable architecture
+  ->🛠 Modular and extendable architecture
 
 
 🏗️ Tech Stack
 
-  Frontend: Streamlit
+  ->Frontend: Streamlit
 
-  LLM: Groq (llama3-8b-instant)
+  ->LLM: Groq (llama3-8b-instant)
 
-  Framework: LangChain
+  ->Framework: LangChain
 
-  Database: SQLite / MySQL
+  ->Database: SQLite / MySQL
 
-  ORM/Connector: SQLAlchemy
+  ->ORM/Connector: SQLAlchemy
 
-  Language: Python
+  ->Language: Python
 
 
 📂 Project Structure
@@ -48,46 +48,46 @@ An interactive Streamlit-based AI application that allows users to chat with SQL
 
 🧑‍💻 Usage
 
-  Select database option:
+  ->Select database option:
 
-  SQLite (default: student.db)
+  ->SQLite (default: student.db)
 
-  MySQL (enter credentials)
+  ->MySQL (enter credentials)
 
-  Enter your Groq API Key
+  ->Enter your Groq API Key
 
-  Ask questions like:
+  ->Ask questions like:
    “Show all students”
    “What is the average marks?”
    “List top 5 performers”
 
-  Get instant results 🎯
+  ->Get instant results 🎯
 
 
 🧠 How It Works
 
-  User inputs a natural language query
+  ->User inputs a natural language query
 
-  LangChain agent processes the query
+  ->LangChain agent processes the query
 
-  Converts it into SQL using schema understanding
+  ->Converts it into SQL using schema understanding
 
-  Executes query via SQLAlchemy
+  ->Executes query via SQLAlchemy
 
-  Returns formatted response
+  ->Returns formatted response
 
 
 🔮 Future Improvements
 
-  Add PostgreSQL support
+  ->Add PostgreSQL support
   
-  Query history & caching
+  ->Query history & caching
 
-  Visualization (charts/graphs)
+  ->Visualization (charts/graphs)
 
-  Role-based access control
+  ->Role-based access control
 
-  Deployment (Streamlit Cloud / Docker)
+  ->Deployment (Streamlit Cloud / Docker)
 
 
 👨‍💻 Author
