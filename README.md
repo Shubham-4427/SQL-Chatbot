@@ -3,10 +3,15 @@ An interactive Streamlit-based AI application that allows users to chat with SQL
 
 #🚀 Features
 🧠 Natural Language → SQL Query conversion
+
 📊 Supports SQLite (local DB) and MySQL (remote DB)
+
 ⚡ Fast responses using Groq LLM (LLaMA 3)
+
 💬 Chat-style interface using Streamlit
+
 🔐 Secure API key input
+
 🛠 Modular and extendable architecture
 
 #🏗️ Tech Stack
