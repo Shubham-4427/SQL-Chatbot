@@ -5,11 +5,14 @@ import os
 
 from sqlalchemy import create_engine
 
-from langchain.agents.agent_types import AgentType
-from langchain_community.agent_toolkits.sql.base import create_sql_agent
-from langchain_community.agent_toolkits.sql.toolkit import SQLDatabaseToolkit
+from langchain.agents import AgentType
+from langchain_community.agent_toolkits import (
+    create_sql_agent,
+    SQLDatabaseToolkit
+)
 from langchain_community.utilities import SQLDatabase
 from langchain_community.callbacks.streamlit import StreamlitCallbackHandler
+
 from langchain_groq import ChatGroq
 
 
